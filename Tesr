@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Embedded Player</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    #player {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe
+    id="player"
+    src="https://veplay.top/stream/93769435-0a71-42cc-af57-7f4181e884ea"
+    allowfullscreen
+    allow="encrypted-media; picture-in-picture;"
+  ></iframe>
+</body>
+</html>
